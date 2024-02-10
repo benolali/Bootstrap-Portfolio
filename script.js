@@ -1,15 +1,15 @@
-var nameEl = document.getElementById('name'); 
-var emailEl = document.getElementById('email'); 
-var messageEl = document.getElementById('message'); 
+let nameEl = document.getElementById('name'); 
+const emailEl = document.getElementById('email'); 
+const messageEl = document.getElementById('message'); 
 
-var formEl = document.querySelector('form');
+const formEl = document.querySelector('form');
 
 
 function submitForm(event) {
     event.preventDefault();
-  var name = nameEl.value;
-  var email = emailEl.value;
-  var message = messageEl.value;
+  const name = nameEl.value;
+  const email = emailEl.value;
+  const message = messageEl.value;
   alert(name + " " + email + " " + message);
 }
 
